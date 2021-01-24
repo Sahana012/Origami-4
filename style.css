@@ -1,0 +1,73 @@
+h1, h3{
+    font-family:cursive;
+    color: #bb91ff;
+}
+
+p{
+    font-family:cursive;
+    color: #6200ff;
+}
+
+a:link{
+    font-family:cursive;
+    color: #ddc8ff;
+}
+
+a:visited{
+    font-family:cursive;
+    color: #ddc8ff;
+}
+
+.menu{
+    display : flex;
+    justify-content: space-between;
+    background-color: #af92ff;
+    padding: 15px;
+    font-size: 20px;
+    font-family:cursive;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width: 200px;
+    font-family: cursive;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+    opacity : 0.5;
+}
+
+.origami p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.origami:hover p{
+    opacity : 1;
+}
+
+body{
+    margin: 0px;
+    background-color: #eee9ff;
+}
+
+.grid{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#af92ff;
+}
